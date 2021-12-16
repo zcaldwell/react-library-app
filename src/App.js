@@ -10,8 +10,8 @@ function App() {
     <main className="container">
       <h1>Library Catalog</h1>
       <BrowserRouter>
-        <p>Check out the amazing selectio of books in our</p>
-        <NavLink to="/books">Books</NavLink>
+        <p>Check out the amazing selection of books in our</p>
+        <NavLink to="/books">Catalog</NavLink>
 
         <Switch>
           <Route path="/books/:id" component={BookDetail} />
